@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "main.py",
-      "use": "@vercel/python",
-      "config": { "maxLambdaSize": "50mb" }
+  "functions": {
+    "main.py": {
+      "runtime": "edge"
     }
-  ],
+  },
   "routes": [
     {
       "src": "/(.*)",
