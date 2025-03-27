@@ -1,4 +1,6 @@
+streamlit
+python-dotenv
+Pillow
+google-generativeai
 fastapi
 uvicorn
-python-dotenv
-google-generativeai
